@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_feed_add"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="fitple.duksung.ac.kr.fitple2.FeedAddActivity"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/make_picture"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:scaleType="center"
+        android:layout_marginTop="80dp"
+
+        android:layout_gravity="center"
+        android:id="@+id/feedAdd_imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:id="@+id/feedAdd_contentText"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:id="@+id/feedAdd_okay"
+        android:text="게시하기 "/>
+
+</LinearLayout>

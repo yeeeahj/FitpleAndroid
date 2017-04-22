@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="570dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/background"
+
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.2"
+        android:scaleY="0.2"
+        android:src="@drawable/logo"
+        />
+    <view
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        class="fitple.duksung.ac.kr.fitple2.PieView"
+        android:id="@+id/pie_view"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin" />
+
+
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_groupname"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:padding="@dimen/activity_horizontal_margin"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:background="#fae1fb"
+        android:text="시작이 반! 내일도 인증을 위해 !!"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+
+        android:src="@drawable/home_direction"
+        />
+
+
+
+
+
+</LinearLayout>

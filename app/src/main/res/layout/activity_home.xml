@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context="fitple.duksung.ac.kr.fitple2.HomeActivity"
+    android:id="@+id/activity_home">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/HomeRecyclerView">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fab_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="16dp"
+        android:onClick="fabMenuClicked"
+
+        app:fab_addButtonColorNormal="?attr/colorAccent"
+        app:fab_addButtonColorPressed="#00b1c7"
+        >
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/singleChatFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="?attr/colorAccent"
+            app:fab_colorPressed="#00b1c7"
+            android:onClick="fab_community"
+            app:fab_title="Community"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/groupChatFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="?attr/colorAccent"
+            app:fab_colorPressed="#00b1c7"
+            android:onClick="fab_new"
+            app:fab_title="New Project"/>
+
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</android.support.design.widget.CoordinatorLayout>

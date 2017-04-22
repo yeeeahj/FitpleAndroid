@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="12dp"
+
+    tools:context="fitple.duksung.ac.kr.fitple2.CommunityActivity"
+    android:orientation="vertical">
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Main Project"
+
+        android:layout_marginBottom="10dp"/>
+    <GridView
+        android:id="@+id/MainGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:numColumns="2"
+
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+
+    </GridView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hot Project"
+        android:layout_marginBottom="10dp"/>
+    <GridView
+    android:id="@+id/HotGridView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:numColumns="2"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+       >
+
+    </GridView>
+
+
+
+</LinearLayout>

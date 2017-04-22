@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fitple</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="facebook_app_id">1085038801548627</string>
+</resources>
